@@ -1,0 +1,27 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --background: #ffffff;
+  --foreground: #ad5389;
+  --foreground: -webkit-linear-gradient(to right, #ad5389, #3c1053);
+  --foreground: linear-gradient(to right, #ad5389, #3c1053);
+  --button-text-color: #ffffff; /* Cor clara para o texto do botão */
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --background: #ad5389;
+    --background: -webkit-linear-gradient(to right, #ad5389, #3c1053);
+    --background: linear-gradient(to right, #ad5389, #3c1053);
+    --foreground: #ededed;
+    --button-text-color: #3c1053; /* Cor escura para o texto do botão no modo escuro */
+  }
+}
+
+body {
+  color: var(--foreground);
+  background: var(--background);
+  font-family: Arial, Helvetica, sans-serif;
+}
