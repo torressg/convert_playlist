@@ -6,10 +6,10 @@ const streamingOptions = [
             "https://www.vectorlogo.zone/logos/spotify/spotify-icon.svg",
     },
     {
-        name: "Apple Music",
-        id: "apple_music",
+        name: "Deezer",
+        id: "deezer",
         avatar:
-            "https://upload.wikimedia.org/wikipedia/commons/2/2a/Apple_Music_logo.svg",
+            "https://assets.stickpng.com/images/6297981ce01809629f11358d.png",
     }
 ]
 
